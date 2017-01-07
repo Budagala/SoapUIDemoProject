@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="d003ea7a-b627-4dc4-b635-1a7632ba938d" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="GetISOCountryCodeByCountyName TestCase" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="d003ea7a-b627-4dc4-b635-1a7632ba938dfileName">GetISOCountryCodeByCountyName-TestCase</con:setting></con:settings><con:testStep type="request" id="33fb3856-754c-4f99-8e24-d7f60e0df5e2" name="GetISOCountryCodeByCountyName"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>countrySoap</con:interface><con:operation>GetISOCountryCodeByCountyName</con:operation><con:request name="GetISOCountryCodeByCountyName" id="3d496551-1a48-4ce9-a4a3-0460f5a44541"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.com/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:GetISOCountryCodeByCountyName>\r
+         <!--Optional:-->\r
+         <web:CountryName>?</web:CountryName>\r
+      </web:GetISOCountryCodeByCountyName>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig action="http://www.webserviceX.NET/GetISOCountryCodeByCountyName"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

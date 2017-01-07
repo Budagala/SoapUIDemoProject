@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="33f0ca76-b664-43fc-8300-5da5d8952dbb" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="GetCurrencies TestCase" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="33f0ca76-b664-43fc-8300-5da5d8952dbbfileName">GetCurrencies-TestCase</con:setting></con:settings><con:testStep type="request" id="522f8e44-ca8c-4749-be03-f29a9b07dbf0" name="GetCurrencies"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>countrySoap</con:interface><con:operation>GetCurrencies</con:operation><con:request name="GetCurrencies" id="cdb69c76-359d-459f-99d7-b97d71beea6a"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.com/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:GetCurrencies/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig action="http://www.webserviceX.NET/GetCurrencies"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

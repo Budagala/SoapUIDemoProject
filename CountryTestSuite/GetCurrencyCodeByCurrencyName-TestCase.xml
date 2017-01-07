@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="189ca6ed-59da-44bd-97db-ce6ece58283b" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="GetCurrencyCodeByCurrencyName TestCase" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="189ca6ed-59da-44bd-97db-ce6ece58283bfileName">GetCurrencyCodeByCurrencyName-TestCase</con:setting></con:settings><con:testStep type="request" id="01440ae1-9efd-4369-ace4-6f1ad147d6a8" name="GetCurrencyCodeByCurrencyName"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>countrySoap</con:interface><con:operation>GetCurrencyCodeByCurrencyName</con:operation><con:request name="GetCurrencyCodeByCurrencyName" id="0547eadb-02b7-4909-ad11-72546832be17"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.com/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:GetCurrencyCodeByCurrencyName>\r
+         <!--Optional:-->\r
+         <web:CurrencyName>?</web:CurrencyName>\r
+      </web:GetCurrencyCodeByCurrencyName>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig action="http://www.webserviceX.NET/GetCurrencyCodeByCurrencyName"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

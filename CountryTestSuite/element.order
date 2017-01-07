@@ -1,0 +1,10 @@
+GetCountries-TestCase.xml
+GetCountryByCountryCode-TestCase.xml
+GetCountryByCurrencyCode-TestCase.xml
+GetCurrencies-TestCase.xml
+GetCurrencyByCountry-TestCase.xml
+GetCurrencyCode-TestCase.xml
+GetCurrencyCodeByCurrencyName-TestCase.xml
+GetGMTbyCountry-TestCase.xml
+GetISD-TestCase.xml
+GetISOCountryCodeByCountyName-TestCase.xml

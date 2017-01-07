@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="40352c62-335a-4810-aaa0-13d8af7a9f45" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="GetGMTbyCountry TestCase" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="40352c62-335a-4810-aaa0-13d8af7a9f45fileName">GetGMTbyCountry-TestCase</con:setting></con:settings><con:testStep type="request" id="c3b85d56-55d5-4a42-b648-7ed6743c04f9" name="GetGMTbyCountry"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>countrySoap</con:interface><con:operation>GetGMTbyCountry</con:operation><con:request name="GetGMTbyCountry" id="106e20cd-b439-4583-a16e-e0fa36635a48"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.com/country.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <web:GetGMTbyCountry>\r
+         <!--Optional:-->\r
+         <web:CountryName>?</web:CountryName>\r
+      </web:GetGMTbyCountry>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig action="http://www.webserviceX.NET/GetGMTbyCountry"/></con:request></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>
